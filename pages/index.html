@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hospital Tracker</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- <link rel="stylesheet" href=""> -->
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <h>
+          <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Malaria</a></li>
+            <li><a href="#">Typhoid</a></li>
+            <li><a href="#">Aids</a></li>
+            <li><a href="#">HIV</a></li>
+            <li><a href="#">Questions</a></li>
+          </ul>
+        </h>
+      </div>
+      <div class="title">
+        <h1>Hospital Tracker</h1>
+      </div>
+      <div class="button">
+        <a href="#" class="btn">WATCH VIDEOS</a>
+        <a href="#" class="btn">BASICS SKILLS</a>
+        <a href="#" class="btn">LEARN MORE</a>
+      </div>
+    </header>
+    <main>
+      <h3>Login Page</h3>
+      <form id="loginForm">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div>
+          <button type="submit">Login</button>
+        </div>
+      </form>
+
+      <h2>Sign Up Page</h2>
+      <form id="signupForm">
+        <div>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div>
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </main>
+    <form id="healthForm">
+      <label for="childName">Child's Name:</label>
+      <input type="text" id="childName" required>
+      
+      <label for="age">Age:</label>
+      <input type="number" id="age" required>
+      
+      <label for="weight">Weight (kg):</label>
+      <input type="number" id="weight" step="0.1" required>
+      
+      <label for="height">Height (cm):</label>
+      <input type="number" id="height" step="0.1" required>
+      
+      <button type="submit">Submit</button>
+    </form>
+
+  </body>
+  
+</html>

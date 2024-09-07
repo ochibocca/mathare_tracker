@@ -1,0 +1,79 @@
+    /* *{
+        margin: 0px;
+    padding: 0px;
+    font-family: century;
+    }
+
+  ul {
+  float : right ;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin: 60px;
+  font-size: 17px;
+  }
+
+  ul li{
+  display: inline-block;
+  }
+  
+  ul li a {
+  text-decoration: none;
+  color: rgb(84, 255, 4);
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+  }
+  ul li a:hover{
+  background-color: rgb(161, 183, 101);
+  color: black;
+  }
+  ul li.active a {
+  background-color: rgb(161, 183, 101);
+  color: black;
+  }
+  body {
+    background-image: url('https://e0.pxfuel.com/wallpapers/181/282/desktop-wallpaper-medical-and-background-doctor-medicine.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+  }
+  .main{
+  max-width: 1200px;
+  margin: auto;
+  }
+  h1 {
+  padding: 10px;
+  color: rgb(255, 198, 10);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: xx-large;
+  
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  }
+  
+  h2{
+  color:orange;
+  font-family: 'Courier New', Courier, monospace;
+  }
+  .singup {
+  color: orange;
+  font-family: 'Courier New', Courier, monospace;
+  }
+  #loginForm{
+  color: orange;
+  font-family: 'Courier New', Courier, monospace;
+  }
+  #signupForm{
+  color: orange;
+  font-family: 'Courier New', Courier, monospace;
+  }
+  h3{
+  color: orange;
+  font-family: 'Courier New', Courier, monospace;
+  } */
+
+  *{
+    background-color: aqua;
+  }
