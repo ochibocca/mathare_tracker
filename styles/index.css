@@ -1,16 +1,17 @@
    *{
-        margin: 0px;
+        margin: 0px 0 0 50px;
     padding: 0px;
     font-family: century;
     
     }
     body{
-      background-image: url(../assets/background1.jpg);
+       background-image: url(../assets/background1.jpg); 
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: cover; 
     }
     .main{
       display: flex;
+      margin: 0 0 0 -100px;
       flex-direction: row;
     }
     .main .title h3{
@@ -36,6 +37,9 @@
       }
       .skills {
         margin-top: 50px;
+        background-color: white;
+        height: 200px;
+      
       }
     .title {
       margin-top: 10px;
@@ -47,9 +51,20 @@
       text-decoration: none;
       margin-left: 100px;
     }
+  .section2 {
+    margin: 100px 0 0 0;
+    color: white;
+  }
+  .section2 p {
+    margin-top: 50px;
+  }
+  .skills a{
+    border: 1px solid aqua;
+    margin-top: 40px;
+    padding: 10px;
+  }
 
-
-    /*
+    /* .se
     .main{
       max-width: 1200px;
       margin: auto;
