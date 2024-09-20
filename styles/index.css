@@ -36,7 +36,7 @@
         color: white;
       }
       .skills {
-        margin-top: 50px;
+        margin: 50px;
         background-color: white;
         height: 200px;
       
@@ -45,12 +45,6 @@
       margin-top: 10px;
     }
 
-    .section1 .skills a {
-      font-size:xx-large;
-      color: white;
-      text-decoration: none;
-      margin-left: 100px;
-    }
   .section2 {
     margin: 100px 0 0 0;
     color: white;
@@ -58,11 +52,28 @@
   .section2 p {
     margin-top: 50px;
   }
-  .skills a{
-    border: 1px solid aqua;
-    margin-top: 40px;
-    padding: 10px;
+
+  .skills .btn{
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 70px;
+    padding: 15px 20px;
+    width: 15%;
+    /* height: 40px; */
+    border-radius: 5px;
+    background-color: #b9e6f3cf;
+    color: white;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
   }
+
+
+
+
+
+
+
 
     /* .se
     .main{
