@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,73 +7,79 @@
     <!-- <link rel="stylesheet" href=""> -->
   </head>
   <body>
-    <header>
-      <div class="main">
-        <div class="title">
-          <h3>Hospital Tracker</h3>
+    <div class="container">
+      <header>
+        <div class="main">
+          <div class="title">
+            <h3>Hospital Tracker</h3>
+          </div>
+          <nav class="navelements">
+            <ul class="list">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li class="loginFormDisplay"><a href="#">Login</a></li>
+                <form id="loginForm">
+                  <div class="inputclass">
+                    <label for="username">Username:</label>
+                    <input type="text" id="inputclass" name="username" required />
+                  </div>
+                  <div class="inputclass">
+                    <label for="password">Password:</label>
+                    <input type="password" id="inputclass" name="password" required />
+                  </div>
+                  <div class="inputclass">
+                    <button type="submit">Login</button>
+                  </div>
+                </form>
+          
+              
+              <li class="loginFormDisplay"><a href="#">Signup</a></li>
+                <form id="signupForm">
+                  <div class="inputclass">
+                    <label for="username">Username:</label>
+                    <input type="text" id="inputclass" name="username" required />
+                  <div class="inputclass">
+                    <label for="email">Email:</label>
+                    <input type="email" id="inputclass" name="email" required />
+                  </div>
+                  <div class="inputclass">
+                    <label for="password">Password:</label>
+                    <input type="password" id="inputclass" name="password" required />
+                  </div>
+                  <div class="inputclass">
+                    <button type="submit">Sign Up</button>
+                  </div>
+                </form>
+            </ul>
+          </nav>
         </div>
-        <nav class="navelements">
-          <ul class="list">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li class="loginFormDisplay"><a href="#">Login</a></li>
-              <form id="loginForm">
-                <div class="inputclass">
-                  <label for="username">Username:</label>
-                  <input type="text" id="inputclass" name="username" required />
-                </div>
-                <div class="inputclass">
-                  <label for="password">Password:</label>
-                  <input type="password" id="inputclass" name="password" required />
-                </div>
-                <div>
-                  <button type="submit">Login</button>
-                </div>
-              </form>
-         
-            
-            <li class="loginFormDisplay"><a href="#">Signup</a></li>
-              <form id="signupForm">
-                <div class="inputclass">
-                  <label for="username">Username:</label>
-                  <input type="text" id="inputclass" name="username" required />
-                <div class="inputclass">
-                  <label for="email">Email:</label>
-                  <input type="email" id="inputclass" name="email" required />
-                </div>
-                <div class="inputclass">
-                  <label for="password">Password:</label>
-                  <input type="password" id="inputclass" name="password" required />
-                </div>
-                <div>
-                  <button type="submit">Sign Up</button>
-                </div>
-              </form>
-          </ul>
-        </nav>
-      </div>
-    </header>
+      </header>
 
-    <section class="section1">
-      <div class="skills">
-        <a href="#" class="btn">TRACK HEALTH</a>
-        <a href="#" class="btn">RECORD</a>
-        <a href="#" class="btn">LEARN MORE</a>
-      </div>
-    </section>
-    <main>
-    <div class="about">
-      <h3> Mathare hospital Tracker Is Here For You. <br /> We track your Health to make work easy for doctors and to reduce confusion when trackering your Health.   <br />No more confusion</h3> 
+      <section class="about">
+        <h3> Mathare hospital Tracker Is Here For You. </h3> 
+        We simplify health records tracking to make it easier for doctors and reduce confusion when managing your health. <br>
+        Say goodbye to confusion
+      </section>
+
+      <section class="section1">
+        <div class="skills">
+          <a href="#" class="btn">TRACK HEALTH</a>
+          <a href="#" class="btn">RECORD</a>
+          <a href="#" class="btn">LEARN MORE</a>
+        </div>
+      </section>
     </div>
-    <div class="services">
-      <a href="#" class="btn">MALARIA</a>
-      <a href="#" class="btn">TYPHOID</a>
-      <a href="#" class="btn"> HIV/AIDS</a>
-      <a href="#" class="btn">CHOLERA</a>
-      <a href="#" class="btn">TUBERCULOSIS</a>
-      <a href="#" class="btn">LEARN MORE</a>
+    <div class="container-lg">
+      <div class="services">
+        <a href="#" class="btn">MALARIA</a>
+        <a href="#" class="btn">TYPHOID</a>
+        <a href="#" class="btn"> HIV/AIDS</a>
+        <a href="#" class="btn">CHOLERA</a>
+        <a href="#" class="btn">TUBERCULOSIS</a>
+        <a href="#" class="btn">LEARN MORE</a>
 
+      </div>
     </div>
   </body>
   

@@ -1,17 +1,23 @@
    *{
-        margin: 0px 0 0 50px;
+        /* margin: 0px 0 0 50px; */
     padding: 0px;
     font-family: century;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
     
     }
     body{
-       background-image: url(../assets/background1.jpg); 
+      
+    }
+    .container{
+      height: 600px;
+      width: 100%;
+      background-image: url(../assets/background1.jpg); 
       background-repeat: no-repeat;
       background-size: cover; 
     }
     .main{
       display: flex;
-      margin: 0 0 0 -100px;
+      margin: 0 0 0 10%;
       flex-direction: row;
     }
     .main .title h3{
@@ -19,6 +25,8 @@
     }
     .navelements {
       float: right;
+      position: fixed;
+      z-index: 1;
       /* display: inline-flex; */
     }
 
@@ -26,7 +34,7 @@
       display: inline-block;
       }
       .list{
-        margin-left: 350px;
+        margin-left: 550px;
       }
       .list li {
         margin: 15px 10px 0px 30px;
@@ -35,14 +43,21 @@
         text-decoration: none;
         color: white;
       }
+      /* .navelements:scrolled-up {
+        background-color: #424040;
+      } */
+      
+
       .skills {
         margin: 50px;
         background-color: white;
         height: 200px;
-      
+        opacity: 80%;
       }
     .title {
       margin-top: 10px;
+      position: fixed;
+      z-index: 1;
     }
 
   .section2 {
@@ -57,9 +72,10 @@
     display: inline-flex;
     text-align: center;
     text-decoration: none;
-    margin-top: 70px;
     padding: 15px 20px;
     width: 15%;
+    margin: 70px 0 0 120px;
+    justify-content: center;
     /* height: 40px; */
     border-radius: 5px;
     background-color: #86b4b8cf;
@@ -67,15 +83,15 @@
     font-size: 12px;
     transition: background-color 0.3s ease;
   }
-  #loginForm, #signupForm{
+  #loginForm{
     position: absolute;
-    top: 10%;
-    left: 68%;
+    /* top: 10%; */
+    left: 72%;
   }
   #signupForm{
     position: absolute;
-    top: 13%;
-    left: 50%;
+    /* top: 45%; */
+    left: 72%;
   }
 
   .loginFormDisplay:hover + #loginForm{
@@ -90,7 +106,7 @@
   }
 
   #inputclass{
-    margin-left: 10px;
+    /* margin-left: 10px; */
     border: 1px solid rgb(95, 144, 170);
   }
   #loginForm .inputclass{
@@ -116,12 +132,22 @@
       margin: 0 auto; 
   }
   .about{
-    color: #03202acf;
-    text-align: center;
-    font-size: larger;
+    color: white;
+    margin: 100px 50px;
+    /* font-size: larger; */
+  }
+  .about h3{
+    font-size: xx-large;
   }
 
-
+  .services{
+    margin: 50px;
+  }
+  .services a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+  }
 
   
 @media only screen and (max-width: 1200px) {
