@@ -142,13 +142,30 @@
 
   .services{
     margin: 50px;
+    display: grid;
+    grid-template-columns:auto auto  ;
+    background-color: rgb(4, 50, 91);
   }
   .services a{
     color: black;
     text-decoration: none;
     background-color: white;
   }
+  .container-lg{
+    background-color: rgb(240, 244, 245);
 
+  }
+  .container-lg h3{
+    text-align: center;
+    padding: 60px;
+  }
+  .services > div{
+    margin: 100px;
+    display:inline-flex ;
+  }
+  .diseases .btn{
+    width: 300px;
+  }
   
 @media only screen and (max-width: 1200px) {
   /* For mobile phones: */
@@ -156,7 +173,7 @@
     width: 100%;
   }
 }
-
+.servi
 
 
 
