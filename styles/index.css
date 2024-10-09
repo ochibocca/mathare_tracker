@@ -199,7 +199,8 @@
       background-color: #007bff;   
       color: white;                  
       text-decoration: none; 
-      height: auto;        
+      height: auto; 
+      border-radius: 10px;    
       
   }
   .data {
@@ -208,7 +209,7 @@
     max-width: 800opx;     
     margin: 20px auto;     
     height: 300px;
-}  */
+}  
 
  
   
@@ -218,7 +219,6 @@
     width: 100%;
   }
 }
-.servi
 
 
 
