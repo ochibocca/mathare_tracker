@@ -30,6 +30,13 @@
       /* display: inline-flex; */
     }
 
+    /* .navelements.scrolled{
+      width: 100%;
+      background-color: rgb(52, 51, 51);
+      opacity: 20%;
+      margin-left: -80px;
+    } */
+
     ul li{
       display: inline-block;
       }
@@ -141,10 +148,10 @@
   }
 
   .services{
-    margin: 50px;
+    /* margin: 50px; */
     display: grid;
     grid-template-columns:auto auto  ;
-    background-color: rgb(4, 50, 91);
+    /* background-color: rgb(4, 50, 91); */
   }
   .services a{
     color: black;
@@ -160,11 +167,22 @@
     padding: 60px;
   }
   .services > div{
-    margin: 100px;
+    margin: 10px;
     display:inline-flex ;
   }
   .diseases .btn{
-    width: 300px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+     
+
+    
+  }
+  .diseases a{
+    color: #68d0d9cf;
+    text-align: center;
+    padding: 20px;
+   
   }
   
 @media only screen and (max-width: 1200px) {
