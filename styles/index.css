@@ -21,7 +21,8 @@
       flex-direction: row;
     }
     .main .title h3{
-      color:  #003366 ;
+      color:  #fbfdff ;
+      
     }
     .navelements {
       float: right;
@@ -205,7 +206,7 @@
       
   }
   .footer {
-    background-color: #206b73; 
+    background-color: #6ee0ed; 
     padding: 20px;                 
     max-width: 800opx;     
     margin: 20px auto;     
@@ -233,7 +234,17 @@
   color: white;
   padding: 50px;
 }
+.button:hover{
+  background-color: aqua;
 
+}
+.button{
+  background-color: rgb(120, 225, 233);
+  border-radius: 5px;
+  width: 150px;
+  font-size: large;
+  height: 30px;
+}
  
   
 @media only screen and (max-width: 1200px) {
