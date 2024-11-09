@@ -19,6 +19,35 @@ console.log(typeof(person));
 
 var total_cost = quantity * amount
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(item_name + 's: ' + total_cost );
 
 console.log(1 < 2 < 3); 
@@ -36,10 +65,46 @@ console.log((a * b) !== c);
 // alert("Who are You")
 
 
-var myHeading = document.querySelector("h1");
-myName = prompt("What's your name ?")
-localStorage.setItem("name",myName)
-console.log(myName);
-myHeading.textContent =` ${myName}`
+// var myHeading = document.querySelector("h1");
+// myName = prompt("What's your name ?")
+// localStorage.setItem("name",myName)
+// console.log(myName);
+// myHeading.textContent =` ${myName}`
 
+// let Icecream = "Vanilla"
+// if (Icecream === "Chocolate") {
+//     console.log("Yay I love Chocolate");
+//     alert("Yay I love Chocolate")
+// } else{
+//     console.log("Ahh , but chocolate is my favaurite");
+//     alert( "Ahh , but chocolate is my favaurite")
+// }
 
+// let school = "big"
+// if (school === "bad") {
+//     alert(" I dont love school")
+// } else if (school ==="big"){
+//     alert("School is very big")
+
+// }
+// else{
+//     alert("I love school")
+// }
+
+//  myHeading = document.querySelector("h1");
+// function setUserName() {
+//    let myName = prompt("What's your name ?")
+//     localStorage.setItem("nameToBeStored",myName)
+//     console.log(myName);
+//     myHeading.textContent =` Hello  my name is  ${myName} `
+    
+// }
+function multiplyNums(num1,num2) {
+    let result = num1*num2;
+    return result;
+    console.log(result);
+    
+    
+}
+multiplyNums(4*6)
+console.log();
