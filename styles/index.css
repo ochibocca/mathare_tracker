@@ -47,7 +47,8 @@
         height: 200px;
       }
       .navelements .list li a:hover{
-        background-color: #86b4b8cf;
+        text-decoration: underline;
+
       }
 
       /* .navelements:scrolled-up {

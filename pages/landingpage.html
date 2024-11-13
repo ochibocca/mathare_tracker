@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Tracker</title>
     <link rel="stylesheet" href="../styles/index.css">
     <!-- <link rel="stylesheet" href=""> -->
-    <title>Document</title>
-</head>
-<body>
-    <p>gdhdgd</p>
-</body>
-</html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="main">
+          <div class="title">
+            <h3>Hospital Tracker</h3>
+          </div>
+          <nav class="navelements">
+            <ul class="list">
+              <div class="navbar">
+              <li class="active"><a href="#">Home </a></li>
+              <li><a href="about.html">About </a></li>
+              <li><a href="services.html"> Contacts </a> </li>
+              <li class="loginFormDisplay"><a href="#">Login</a></li>
+                <form id="loginForm">
+                  <div class="inputclass">
+                    <label for="username">Username:</label>
+                    <input type="text" id="inputclass" name="username" required />
+                  </div>
+                  <div class="inputclass">
+                    <label for="password">Password:</label>
+                    <input type="password" id="inputclass" name="password" required />
+                  </div>
+                  <div class="inputclass">
+                    <button type="submit">Login</button>
+                  </div>
+                </form>
+          
+              
+              <li class="loginFormDisplay"><a href="#">Signup </a></li>
+            </div>
+                <form id="signupForm">
+                  <div class="inputclass">
+                    <label for="username">Username:</label>
+                    <input type="text" id="inputclass" name="username" required />
+                  <div class="inputclass">
+                    <label for="email">Email:</label>
+                    <input type="email" id="inputclass" name="email" required />
+                  </div>
+                  <div class="inputclass">
+                    <label for="password">Password:</label>
+                    <input type="password" id="inputclass" name="password" required />
+                  </div>
+                  <div class="inputclass">
+                    <button type="submit">Sign Up</button>
+                  </div>
+                </form>
+            </ul>
+          </nav>
+        </div>
+      </header>
