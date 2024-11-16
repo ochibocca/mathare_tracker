@@ -151,3 +151,7 @@ color: white;
 margin: 100px 50px;
 /* font-size: larger; */
 }
+.image {
+  margin-bottom: 300px; /* Move down */
+  margin-left: 800px; /* Move right */
+}
