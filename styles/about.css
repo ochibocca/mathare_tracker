@@ -149,9 +149,20 @@ border: 1px solid srgb rgb(77, 115, 125);
 .about{
 color: white;
 margin: 100px 50px;
-/* font-size: larger; */
+
 }
-.image {
-  margin-bottom: 300px; /* Move down */
-  margin-left: 800px; /* Move right */
+.fact {
+  font-size: x-large ;
+  padding-left: 50px;
+  font-weight: bold;
+}
+.aboutus{
+  display: flex;                
+      justify-content: left;      
+      flex-wrap: wrap;             
+      gap: 300px;
+      margin-top: 70px; 
+      background-color: #c6f9fc;
+      font-size: larger;
+      padding-top: 50px;
 }
