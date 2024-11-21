@@ -8,7 +8,7 @@
     .container{
       height: 600px;
       width: 100%;
-      background-image: url(../assets/backdrop.jpg);
+      background-image: url(../assets/backdrop\ 3main.webp);
       background-repeat: no-repeat;
       background-size: cover; 
     }
@@ -18,7 +18,7 @@
       flex-direction: row;
     }
     .main .title h3{
-      color:  #4e3001 ;
+      color: white ;
       
     }
     .navelements {
@@ -39,7 +39,7 @@
       }
       .navelements .list li a{
         text-decoration: none;
-        color: #333333;
+        color: white;
         border: 5px transparent;
         transition: 0.5 ease;
         border-radius: 2px;
@@ -47,7 +47,8 @@
         height: 200px;
       }
       .navelements .list li a:hover{
-        background-color: #86b4b8cf;
+        text-decoration: underline;
+
       }
 
       /* .navelements:scrolled-up {
