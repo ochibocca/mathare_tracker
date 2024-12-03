@@ -1,7 +1,8 @@
-.body{
+.cointainer{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background-color: aqua cover;
     
 }
 .login{
@@ -12,7 +13,12 @@
     margin:8% auto 0;
     text-align: center;
     border: 1px blue solid;
-
-
+}
+.input-box{
+    padding: 0 0 2px;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
 
 }
