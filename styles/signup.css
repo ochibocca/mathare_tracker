@@ -1,0 +1,66 @@
+
+.login{
+    width: 300px;
+    box-shadow: 0 0 3px rgba(0 0 0 0.3);
+    background: #fff;
+    padding:20px;
+    margin:8% auto 0;
+    text-align: center;
+    border: 1px blue solid;
+    border-radius: 5px;
+}
+.cointainer{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../assets/sigup\ background\ image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.input-box{
+    padding: 0 0 2px;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.login h1{
+    color: aquamarine;
+    margin-bottom:30px;
+}
+.login-btn{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: rgb(151, 237, 252);
+}
+.sign-btn{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 30px 0;
+    cursor: pointer;
+    background-color: rgb(7, 179, 209);
+
+}
+.hr{
+    width: 20px;
+    margin: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto;
+}
+img{
+    width: 70px;
+}
