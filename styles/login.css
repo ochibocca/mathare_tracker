@@ -33,9 +33,34 @@
     color: aquamarine;
     margin-bottom:30px;
 }
-.button{
+.login-btn{
     width:100%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: rgb(151, 237, 252);
+}
+.sign-btn{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 30px 0;
+    cursor: pointer;
+    background-color: rgb(7, 179, 209);
+
+}
+.hr{
+    width: 20px;
+    margin: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto;
+}
+img{
+    width: 70px;
 }
