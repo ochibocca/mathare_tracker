@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/login.css">
 </head>
-<body>
-    <div class="cointainer">
-<link rel="stylesheet" href="../styles/login.css">
+<body class="cointainer">
 <div class="login">
     <h1>Login form</h1>
     <form>
         <input type="email" class="input-box" placeholder="Your email">
         <input type="password" class="input-box" placeholder="Your Password">
-        <p> I agree to the terms and conditions</p>
+        <p> <span><input type="checkbox"> agree to the terms and conditions</span></p>
+        <button type="button" class="login-btn"> Login</button>
+        <hr>
+        <p class="or">OR</p>
+        <button type="button" class="login-btn"> sign in with google</button>
+        <p>Dont have an account<a href="#"> Sign up</a></p>
     </form>
 </div>
-</div>
-    
 </body>
 </html>
