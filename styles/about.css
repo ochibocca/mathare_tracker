@@ -8,7 +8,7 @@ font-family: Roboto, "Helvetica Neue", sans-serif;
 .container{
   height: 600px;
   width: 100%;
-  background-color: aquamarine;
+  background-image: url(../assets/backdrop\ about1.png);
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -161,20 +161,13 @@ margin: 100px 50px;
   display: flex;                
   justify-content: left;      
   flex-wrap: wrap;             
-  background-color: #c6f9fc;
+  background-color: #aef4f8;
   font-size: larger;
   padding-top: 70px;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: x-large;
 }
 
-.paragraph1{
-  display: flex;                
-      justify-content: right;      
-      flex-wrap: wrap;             
-      background-color: #c6f9fc;
-      font-size: larger;
-      font-weight: 300;
-}
 .mission{
   display: flex;                
   justify-content: center;      
@@ -186,7 +179,7 @@ margin: 100px 50px;
   font-weight: 900;
 }
 .missions{
-  background-color: rgb(30, 230, 163);
+  background-color:#c6f9fc;
 }
 .imgfact{
   border-radius: 50px;
