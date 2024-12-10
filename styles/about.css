@@ -5,7 +5,7 @@ font-family: century;
 font-family: Roboto, "Helvetica Neue", sans-serif;
 
 }
-.container{
+.container1{
   height: 600px;
   width: 100%;
   background-image: url(../assets/backdrop\ about1.png);
@@ -170,19 +170,6 @@ margin: 100px 50px;
 
 }
 
-.mission{
-  display: flex;                
-  justify-content: center;      
-  flex-wrap: wrap;             
-  background-color: #c6f9fc;
-  font-size: xx-large;
-  padding-top: 70px;
-  text-decoration: underline;
-  font-weight: 900;
-}
-.missions{
-  background-color:#c6f9fc;
-}
 .imgfact{
   border-radius: 50px;
 }
@@ -261,4 +248,12 @@ width: 150px;
 font-size: large;
 height: 30px;
 }
-
+.mission{
+  border-radius: 5px;
+  border: 2px solid blue;
+  width: 300px;
+  background-color: #6ee0ed;
+}
+.vision{
+  
+}
