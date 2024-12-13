@@ -3,8 +3,6 @@ startButton.addEventListener('click', startGame)
 const questionCointainerElement = document.getElementById('question-cointainer')
 let shuffledQuestions 
 let currentQuestionIndex 
-const questionElement = document.getElementById('question')
-const questionElement = document.getElementById('question')
 
 
 

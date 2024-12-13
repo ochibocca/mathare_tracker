@@ -17,13 +17,21 @@ font-family: Roboto, "Helvetica Neue", sans-serif;
   margin: 0 0 0 10%;
   flex-direction: row;
 }
+.aboutus{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  padding-top: 65px;
+  font-style: bold;
+  background-color: #6ee0ed;
+} 
 .about{
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   padding-top: 65px;
   font-style: bold;
-} 
+}
 .main .title h3{
   color: white ;
   
@@ -243,26 +251,25 @@ height: 30px;
   border-radius: 5px;
   border: 2px solid blue;
   width: 300px;
-  background-color: #6ee0ed;
+  background-color: #b6f2f9;
 }
 .vision{
   border-radius: 5px;
   border: 2px solid blue;
   width: 300px;
-  background-color: #6ee0ed;
+  background-color: #b6f2f9;
 }
 .goal{
   border-radius: 5px;
   border: 2px solid blue;
   width: 300px;
-  background-color: #6ee0ed;
+  background-color: #b6f2f9;
 }
 .container{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  background-color: #aef4f8;
 }
 .head1{
   color:black;
