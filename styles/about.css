@@ -1,109 +1,35 @@
-*{
-    /* margin: 0px 0 0 50px; */
-padding: 0px;
-font-family: century;
-font-family: Roboto, "Helvetica Neue", sans-serif;
-
-}
-.container1{
-  height: 600px;
-  width: 100%;
-  background-image: url(../assets/backdrop\ about1.png);
-  background-repeat: no-repeat;
-  background-size: cover; 
-}
-.main{
-  display: flex;
-  margin: 0 0 0 10%;
-  flex-direction: row;
-}
-.aboutus{
-  text-align: left;
-  padding-top: 65px;
-  background-image: url(../assets/Blue\ Gradient\ Medical\ Facebook\ Fundraiser\ Cover\ Photo.png);
+body{
+  background-image: url(../assets/background\ about.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 100px 0 0 0;
-} 
-.about{
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: x-large;
-  padding-top: 65px;
-  font-style: bold;
 }
-.main .title h3{
-  color: white ;
-  
-}
-.navelements {
-  float: right;
-  position: fixed;
-  z-index: 1;
-  /* display: inline-flex; */
-}
-
-ul li{
-  display: inline-block;
-  }
-  .list{
-    margin-left: 550px;
-  }
-  .list li {
-    margin: 15px 10px 0px 30px;
-  }
-  .navelements .list li a{
-    text-decoration: none;
-    color: white;
-    border: 5px transparent;
-    transition: 0.5 ease;
-    border-radius: 2px;
-    width: 30px;
-    height: 200px;
-  }
-  .navelements .list li a:hover{
-    text-decoration: underline;
-
-  }
-
-  /* .navelements:scrolled-up {
-    background-color: #424040;
-  } */
-  
-
-.about{
-color: white;
-margin: 100px 50px;
-
-}
-.fact {
-  font-size: x-large ;
-  padding-left: 50px;
-  font-weight: bold;
-}
-
-.paragraph2{                
-  display: flex;                
-  justify-content: left;      
-  flex-wrap: wrap;             
+p{
   font-size: larger;
-  padding-top: 70px;
-  font-weight: 300;
-  font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.imgabout{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: auto;
+
 
 }
-.mission{
-  background-color: rgb(184, 249, 249);
-  justify-items: center;
-  align-items: center;
-}
-.mission-p1{
-  font-weight: 600;
-  color: rgb(6, 6, 6);
-  font-size: xx-large;
-  
+.info{
+  color:white;
+  font-size: large;
+  font-weight: 300;
+  margin-left: 50px ;
+  margin-bottom: 900px;
 
 }
+.hr{
+  width: 300px;
+  margin-left: 10px;
+  margin-top: 30px;
 
+}
