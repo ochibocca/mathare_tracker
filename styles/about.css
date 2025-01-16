@@ -5,10 +5,23 @@
   background-size: cover;
   height: 500px;
   width: 100%;
+  margin: 0;
+}
+.welcome{
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 20px 30px;
+  color: #464646;
+  height: 120px;
+  align-content: center;
+
 }
 .p1 {
   font-size: 1.5em;
-  color: #555;
+  color: #464646;
+  height: 300px;
+  align-content: center;
+  padding: 20px;
 }
 .container2 {
   background-color: #fff;
