@@ -91,54 +91,8 @@
     font-size: 12px;
     transition: background-color 0.3s ease;
   }
-  #loginForm{
-    position: absolute;
-    /* top: 10%; */
-    left: 72%;
-  }
-  #signupForm{
-    position: absolute;
-    /* top: 45%; */
-    left: 72%;
-  }
 
-  .loginFormDisplay:hover + #loginForm{
-    display: block;
-  }
-  .loginFormDisplay:hover + #signupForm{
-    display: inline-block;
-  }
-
-  #loginForm, #signupForm{
-    display: none;
-  }
-
-  #inputclass{
-    /* margin-left: 10px; */
-    border: 1px solid rgb(95, 144, 170);
-  }
-  #loginForm .inputclass{
-    margin-left:20px;
-    margin-bottom: 15px;
-  }
-  #signupForm .inputclass{
-    margin-left:0px;
-    margin-bottom: 0px;
-  }
-  #signupForm  #inputclass{
-    margin-left: 0px;
-  }
-  .signup{
-    margin-left: 600px;
-    margin-top: 20px;
-  }
-
-  #signup{
-    margin-left: 10px;
-    border: 1px solid srgb rgb(77, 115, 125);
-      max-width: 400px; 
-      margin: 0 auto; 
-  }
+  
   .about{
     color: white;
     margin: 100px 50px;
