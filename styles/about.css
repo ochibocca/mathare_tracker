@@ -3,7 +3,7 @@
   background-image: url(../assets/about\ backdrop.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 800px;
   width: 100%;
   margin: 0;
 }
@@ -55,6 +55,12 @@ ul li{
   align-content: center;
 
 }
+.purpose{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 150px;
+  gap: 40px;
+}
 hr{
   width: 600px;
   height: 3px;
@@ -66,8 +72,12 @@ hr{
   font-size: 30px;
   color: #464646;
   height: 300px;
-  align-content: center;
   padding: 20px;
+  border: solid 1px black;
+  top: 0;
+}
+.purpose:hover{
+  text-decoration: underline;
 }
 .container2 {
   background-color: #667d7e;
@@ -101,4 +111,33 @@ p2{
 }
 .para{
   margin: 20px 30px;
+}
+.footer {
+  background-color: #6ee0ed; 
+  padding: 20px;                 
+  max-width: 800opx;     
+  margin: 20px auto;     
+  height: 300px;
+  display: block;
+  text-align: center;
+  
+}  
+.fa{
+color: white;
+/* border: 1px solid rgb(245, 247, 248); */
+font-size: 50px;
+padding:20px;
+
+}
+.icon{
+text-align: center;
+}
+.copyright .fa{
+padding:5px ;
+}
+.copyrights{
+display: grid;
+align-items: center;
+color: white;
+padding: 50px;
 }
