@@ -59,7 +59,8 @@ ul li{
   display: flex;
   margin-left: 50px;
   margin-top: 150px;
-  gap: 40px;
+  gap: 130px;
+  max-width: min-content;
 }
 hr{
   width: 600px;
@@ -76,8 +77,17 @@ hr{
   border: solid 1px black;
   top: 0;
 }
+.info-about{
+  font-size: 15px;
+  display: grid;
+  margin: 20px;
+}
 .purpose:hover{
   text-decoration: underline;
+}
+.img-about{
+  width: 70px;
+  height: 50px;
 }
 .container2 {
   background-color: #667d7e;
