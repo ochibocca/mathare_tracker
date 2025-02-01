@@ -1,0 +1,15 @@
+/* styles/trackhealth.css */
+.data {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+}
+.date, .servity, .symptom{
+    border: 1px solid black;
+    height: 500px;
+    margin-top: 200px;
+}
