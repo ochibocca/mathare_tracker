@@ -3,13 +3,13 @@
   background-image: url(../assets/about\ final\ background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 900px;
   width: 100%;
   margin: 0;
 }
 .logo{
   border-radius: 100%;
-  height: 150px;
+  height: 100px;
   width: 100px;
 }
 .main{
@@ -87,9 +87,6 @@ hr{
   font-size: 15px;
   display: grid;
   margin: 20px;
-}
-.purpose:hover{
-  text-decoration: underline;
 }
 .img-about{
   width: 70px;
