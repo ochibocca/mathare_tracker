@@ -7,21 +7,37 @@
     <link rel="stylesheet" href="../styles/trackhealth.css">
 </head>
 <body>
+    <div class="table">
+    <table>
+    <thead>
+        <tr>
+            <th>Date and time</th>
+            <th>servity</th>
+            <th>symptom</th>
+        </tr>
+    </thead>
+</table>
+</div>
+    <form>
         <div class="data">
         <div class="date">
             <p>Date and Time</p>
-            <div class="input-date"></div>
+            <label for="date" class="date" ></label>
+            <input type="date" class="date-input">
 
         </div>
         <div class="servity">
             <P>Servity</P>
-            <div class="input-servity"></div>
+            <label for="servity" class="servity" ></label>
+            <input type="servity" class="servity-input">
 
         </div>
         <div class="symptom">
             <p>Symptom</p>
-            <div class="input-symptom"></div>
+            <label for="symptom" class="symptom" ></label>
+            <input type="symptom" class="symptom-input">
         </div>
+    </form>
     </div>
     
 </body>

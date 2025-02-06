@@ -1,7 +1,5 @@
 
 .data {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -11,6 +9,27 @@
 }
 .date, .servity, .symptom{
     border: 1px solid black;
-    height: 500px;
-    margin-top: 200px;
+    height: 300px;
+    margin-top: 400px;
+}
+.date , .symptom , .servity{
+    align-items: center;
+
+}
+.servity-input , .date-input , .symptom-input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+.table{
+    text-align: center;
+    margin-top: 50px;
+}
+th{
+    border: 1px solid black;
+
+
+}
+tr{
+    text-align: center;
 }
