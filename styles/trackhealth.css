@@ -1,14 +1,18 @@
-
+.cointainer{
+    height: 900px;
+    background-image: url(../assets/trackhealthbackdrop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .data {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     text-align: center;
-    height: 100vh;
     gap: 10px;
 }
 .date, .servity, .symptom{
-    border: 1px solid black;
+    border: 3px solid rgb(255, 255, 255);
     height: 300px;
     margin-top: 400px;
 }
@@ -22,14 +26,22 @@
     border-radius: 5px;
 }
 .table{
-    text-align: center;
-    margin-top: 50px;
+    margin: 0 0 0 50px;
 }
 th{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 70px;
+    font-size: 29px;
+    background-color: aquamarine;
 
 
 }
 tr{
     text-align: center;
+    
+}
+.submit{
+    margin: 50px 70px 0 0;
+    align-content: center;
 }
