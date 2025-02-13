@@ -44,4 +44,5 @@ tr{
 .submit{
     margin: 50px 70px 0 0;
     align-content: center;
+    display: flex;
 }
