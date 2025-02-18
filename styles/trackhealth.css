@@ -42,7 +42,20 @@ tr{
     
 }
 .submit{
-    margin: 50px 70px 0 0;
-    align-content: center;
-    display: flex;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+.submit-btn{
+    height: 60px;
+    width: 250px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    background-color: rgb(55, 124, 124);
+
+}
+img{
+    height: 50px;
+    width: 90px;
 }
