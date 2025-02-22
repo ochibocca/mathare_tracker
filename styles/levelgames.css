@@ -1,0 +1,28 @@
+*{
+padding: 0px;
+font-family: century;
+font-family: Roboto, "Helvetica Neue", sans-serif;
+
+}
+.cointainer{
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 500px;
+    width: auto;
+}
+
+.easy, .medium , .hard{
+    border: 1px solid black;
+    display: block;
+    border-radius: 5px;
+    padding-left: 50%;
+    background-color: rgb(5, 150, 150);
+    margin-top: 40px;
+}
+p{
+    font-size: 30px;
+    color: white;
+}
+.easy, .medium , .hard:hover{
+    background-color: rgb(129, 51, 27);
+}
