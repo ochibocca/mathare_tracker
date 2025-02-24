@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font: 1em sans-serif;
+    background-color: #E0F7FA;
+}
+.cointainer{
+    align-content: center;
+    border: 1px solid black;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 0 180px;
+    gap: 20px;
+    border-radius: 10px;
+}
+.row{
+    margin-top: 200px;
+    align-content: center;
+    gap: 20px;
+}
+input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 70px;
+}
+button{
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(15, 69, 73);
+}
+h1{
+    margin-bottom: 100px;
+    font-size: 30px;
+    align-content: center;
+    display: flex;
+
+}
+.material-symbols-outlined{
+    border-radius: 50%;
+    color: rgb(48, 49, 49);
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    
+}
