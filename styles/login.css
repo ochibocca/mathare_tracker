@@ -1,3 +1,28 @@
+*{
+    /* margin: 0px 0 0 50px; */
+padding: 0px;
+font-family: century;
+font-family: Roboto, "Helvetica Neue", sans-serif;
+
+}
+.cointainer1{
+    align-content: center;
+    justify-content: center;
+    left: 0;
+    margin: 150px 0 0 400px;
+}
+.doctor , .patient , .parent{
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 0 0 90px;
+    width: 700px;
+    height: 120px;
+}
+.material-icons{
+    margin-left: 100%;
+     
+}
 
 .login{
     width: 300px;
@@ -9,6 +34,7 @@
     border: 1px blue solid;
     border-radius: 5px;
 }
+
 .cointainer{
     margin: 0;
     padding: 0;
