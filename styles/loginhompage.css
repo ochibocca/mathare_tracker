@@ -18,8 +18,15 @@ font-family: Roboto, "Helvetica Neue", sans-serif;
     padding: 40px 0 0 90px;
     width: 700px;
     height: 120px;
+    gap: 40px;
 }
 .doctorh1, .patienth1 , .parenth1{
     font-size: 40px;
     margin-top: 50px;
+    gap: 40px;
+}
+.dh1{
+    margin-right: 90px;
+  
+
 }
