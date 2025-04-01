@@ -7,19 +7,38 @@
     <link rel="stylesheet" href="../styles/loginhompage.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<div class="cointainer1">
+<div class="container1" id="container1">
     <p1><span style="font-size: 60px; margin-top: 10px;">Welcome to Health Tracker </span> </br> choose an acount to proceed</p1>
     <div class="doctor">
-        <p class="account"><span class="doctorh1">Doctor Account</span> <span class="dh1"></br> Are you a doctor</span></p>
+        <p class="account"><span class="doctorh1">Doctor Account</span> </p>
+            <span class="dh1"></br> Are you a doctor</span>
     </div>
-    <div class="patient">
-        <p class="account"><span class="patienth1">Patient Account </span><span class="dh1"> </br> Are a patient</span></p>
-
-
+    <div class="patient" onclick="myFunction()">
+        <p class="account" ><span class="patienth1">Patient Account</span></p>
+            <span class="dh1"> </br> Are a patient</span>
     </div>
     <div class="parent">
-        <p class="account"><span class="parenth1">Parent Acount</span> <span class="dh1"> </br> Are a parent</span></p>
+        <p class="account"><span class="parenth1">Parent Acount</span> </p>
+            <span class="dh1"> </br> Are a parent</span>
     </div>
 </div>
+    <div class="login" id="loginForm" style="display: none;">
+    <img src="../assets/login icon.png">
+    <h1>Sign up form</h1>
+    <form>
+        <input type="name" class="input-box" placeholder="Full name">
+
+        <input type="email" class="input-box" placeholder="Your email">
+        <input type="password" class="input-box" placeholder="Your Password">
+        <input type="password" class="input-box" placeholder="Repeat password">
+
+        <p> <span><input type="checkbox"> agree to the terms and conditions</span></p>
+        <button type="button" class="login-btn"> sign up</button>
+        <hr>
+        <p class="or">OR</p>
+        <button onclick="goBack()" class="sign-btn"> go back</button>
+    </form>
+</div>
+<script src="../scripts/home.js"></script>
 </body>
 </html>
