@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Malaria</title>
+    <title>Malaria Quiz Game</title>
     <link rel="stylesheet" href="../styles/game.css">
 </head>
 <body>
-    <div class="cointainer">
-        <div id="question-cointainer" class="hide">
-            <div id="question">What is Malaria</div>
-            <div id="answer-button" class="btn-grid">
-                <button class="btn"> Malaria is a Diseases </button>
-                <button class="btn">  Malaria is a Game</button>
-                <button class="btn">  Malaria is a Food</button>
-                <button class="btn">  Malaria is a Nothing </button>
-            </div>
+    <div class="quiz-cointainer" id="quiz">
+        <div class="question-header">
+            <h2 id="question-text">Question Text</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="a" class="answer">
+                    <label for="a" id="a_text">Answer Text</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" class="answer">
+                    <label for="b" id="b_text">Answer Text</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" class="answer">
+                    <label for="c" id="c_text">Answer Text</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" class="answer">
+                    <label for="d" id="d_text">Answer Text</label>
+                </li>
+            </ul>
         </div>
-            <div class="control">
-                <button id="start-btn" class="start-btn btn" onclick="myFunction()">Start</button>
-                <button id="next-btn" class="next-btn btn hide">Next</button>
-            </div>
+        <button id="submit"> Submit</button>
     </div>
-
-
-
+    <script src="../scripts/game.js"></script>
 </body>
 </html>
