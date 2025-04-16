@@ -18,3 +18,6 @@ app.get("/posts", (req , res)=>{
 app.listen(3000, () => {
     console.log("Server connected on port 3000");
 });
+app.get("/posts/:id",(req , res =>{
+    const id = parseInt(res.params.id)
+}))
