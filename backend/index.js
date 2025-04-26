@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+modul
 
 app.get("/", (req, res) => { 
     res.send("hello world");
@@ -21,3 +22,5 @@ app.listen(3000, () => {
 app.get("/posts/:id",(req , res =>{
     const id = parseInt(res.params.id)
 }))
+
+app.post
