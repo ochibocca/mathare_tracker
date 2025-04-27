@@ -2,15 +2,15 @@
 
 productSchema ={
     name: {
-        type: string,
+        type: String,
         required: true,
     },
     email: {
-        type: string,
+        type: String,
         required: true,
     },
     age: {
-        type: string,
+        type: SVGAElementtring,
         required: true,
     }
 }
